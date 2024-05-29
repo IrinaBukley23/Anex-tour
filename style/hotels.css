@@ -1,0 +1,802 @@
+@import url('./header.css');
+@import url('./footer.css');
+@import url('./style.css');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    behavior: smooth;
+}
+
+.promo{
+    background: url("../img/hotels/head.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 482px;
+    margin-top: 74px;
+    width: 100%;
+    position: relative;
+}
+
+.promo:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.zagolovok{
+    position: relative;
+    z-index: 2;
+}
+.top_footer_img {
+    background: url("../img/hotels/foot.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 482px;
+    margin-top: 74px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding-top: 80px;
+    font-weight: 800;
+}
+.mainp{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_h {
+    margin-bottom: 28px;
+    width: 100%;
+}
+.selection_of_tour_menu{
+    min-height: 80px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 13px;
+    width: 70%;
+    margin: 80px auto 90px;
+    align-items: center;
+
+    
+    }
+
+h2{
+    text-transform: uppercase;
+}
+
+    .one p{
+        margin-bottom: 5px;
+        font-size: 12px;
+        color: #A1A1A1;
+    }
+    .one h5{
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+    .two h5, .three h5{
+        font-size: 16px;
+        color: #A1A1A1;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    .six button{
+        background-color:#EC1C24;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+        border: none;
+        display: flex;
+        margin-left: auto;
+    }
+    .six button img{
+        margin: auto 0px auto 10px;
+    }
+    .six button p{
+        margin-bottom: 0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .breadcrumb{
+        margin: 28px 0 60px;
+    }
+    .breadcrumb-item a{
+        text-decoration: none;
+        color: #A1A1A1;
+    }
+    .breadcrumb-item_active{
+        color: black;
+    }
+
+    .zag h2{
+        padding: 0;
+        margin: 0;
+            }
+    .zag p{
+        margin: 0;
+        padding-left: 10px;
+        
+    }
+    .zag2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .btnfilter p{
+        margin: 0;
+        padding-left: 10px;
+    }
+    .btnfilter{
+        padding: 5px 30px;
+        text-align: center;
+        align-items: center;
+    }
+    .pmap{
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .card1{
+        padding: 25px 40px;
+    }
+    .card1 div h4{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    .Gresia{
+        margin-bottom: 5px;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .card1 img{
+        margin-bottom: 20px;
+    }
+
+    .eight_and_five{
+        padding: 4px 15px;
+        background-color: #463998;
+        border-radius: 30px;
+        color: white;
+        margin-right: 10px;
+    }
+    .text_bottom{
+        margin-top:50px;
+        margin-bottom: 10px;
+    }
+    .text_bottom p{
+        margin: 0;
+        padding: 0;
+    }
+    .text_bottom img{
+        margin: 0;
+        padding: 0;
+    }
+    .text_bottomm img{
+        margin: 0;
+        padding: 0;
+    }
+    .text_bottomm p{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .summer2024{
+        border: 2px solid #D4D4D4;
+        padding: 4px 10px;
+        border-radius: 30px;
+        color: #585858;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        width: 56%;
+        margin: 0 0 0 auto;
+    }
+    .card_button button{
+        margin: auto 0;
+        background-color:#EC1C24;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+        border-color: #EC1C24;
+        display: flex;
+        margin-left: auto;
+    }
+    .card_button button p{
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .card_button button img{
+        margin: auto 0px auto 10px;
+    }
+
+    .ccc{
+        width: 100%;
+    }
+
+    .thirdcol{
+        text-align: end;
+        justify-content: end;
+    }
+    .card_list{
+        margin: auto 0 0 auto;
+    }
+
+    .thirdcolp1{
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+    .thirdcolp2{
+        font-size: 14px;
+        font-weight: 300;
+        align-items: center;
+        margin: auto 0 16px 0;
+    }
+    .ttt{
+        margin: 130px 0 10px 0;
+    }
+    .ttt2{
+        justify-content: end;
+    }
+    .thirdcolp2{
+        margin-left: 15px;
+    }
+    .listpadding p{
+        margin: 0;
+    }
+    .listpadding img{
+        margin: 0;
+    }
+    .card_list li img{
+        margin-right: 4px;
+    }
+
+    .card_h_img img{
+        height: 100%;
+        z-index: 700;
+        position: relative;
+    }
+    
+
+    .card1{
+        border: 1px solid #D4D4D4;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        z-index: 1;
+    }
+
+    .cards div img{
+        z-index: 5;
+    }
+
+    .redlinevert{
+       background-color:#D4D4D4;
+        height: 38px;
+        width: 1px;
+        margin: 0 0 0 auto;
+    }
+
+    .linnee{
+        background-color: #848484;
+        width: 144px;
+        height: 1px;
+    }
+    .cards{
+        margin-bottom: 30px;
+    }
+
+
+    .greylinevert{
+        background-color:#D4D4D4;
+        height: 238px;
+        width: 1px;
+        margin: auto 0;
+        padding: 0;
+    }
+
+
+
+    .greylline{
+        width: 100%;
+        border: 1px solid #D4D4D4;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .arrow{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 95px;
+    }
+    .arrow h6{
+        border: 1px solid #D4D4D4;
+        padding: 5px 15px;
+        width: 50px;
+        border-radius: 30px;
+        margin-right: 7px;
+        margin-bottom: 0;
+    }
+    .arrow p{
+        padding: 0;
+        margin: 0;
+    }
+    .arrow div img{
+        padding: 10px;
+        border: 1px solid #D4D4D4;
+        border-radius: 100%;
+        margin-left: 30px;
+    }
+    .calendar {
+        width: 22px;
+        height: 22px;
+    }
+    .calendar img {
+        width: 100%;
+    }
+    .stars{
+        width: 114px;
+    }
+    .stars img {
+        width: 100%;
+    }
+    .Casa_Cook{
+        color: white;
+    }
+
+    .card1_slider .card_list{
+        margin-left: 0;
+    }
+    .ccc_slider{
+        padding: 20px;
+        border: 1px solid #A1A1A1;
+        width: auto;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .card_hot{
+        padding: 20px;
+    }
+
+    .card_list_h{
+        margin: 20px 0 0 140px;
+        padding: 0;
+    }
+
+
+.tour_slider{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tour_slider-h{
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    position: relative;
+    z-index: 3;
+}
+.slide_bg{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+    transition: all 0.8s ease-in;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+
+}
+.slide_bg:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slick-active li {
+    background-color: none;
+}
+
+.slide_bg.bg_1{
+    background: url('../img/selection_of_tour/1.jpg') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+.slide_bg.bg_2{
+    background: url('../img/selection_of_tour/2.jpg') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+.slide_bg.bg_3{
+    background: url('../img/selection_of_tour/3.jpg') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+.slide_bg.bg_4{
+    background: url('../img/selection_of_tour/4.jpg') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+.slide_bg.bg_5{
+    background: url('../img/selection_of_tour/5.jpg') no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+.slide_bg.bg_6{
+    background: url('../img/selection_of_tour/6.jpg') no-repeat;
+     background-size: 100% 100%;
+    transition: all 0.8s ease-in;
+    background-position: center;
+}
+
+
+.slide_bg.bg_1:hover, .slide_bg.bg_2:hover, .slide_bg.bg_3:hover, .slide_bg.bg_4:hover, .slide_bg.bg_5:hover, .slide_bg.bg_6:hover{
+    background-size: 110% 110%;
+}
+
+
+.card_hot{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    
+
+}
+
+.Gresiaa{
+    color: white;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.section_with_hotels{
+    padding: 90px 0 0 ;
+}
+
+.ccc {
+    border: none;
+    position: relative;
+}
+.card_list_h{
+    font-weight: 500;
+    color: #ffffff;
+}
+.card1{
+    border-left: none;
+}
+.arrowimg img{
+    transition: all 0.8s ease;
+}
+.arrowimg img:hover{
+background-color: #D4D4D4;
+}
+.thirdcol button {
+    transition: all 0.8s ease;
+}
+.thirdcol button:hover {
+    box-shadow: 10px 5px 5px rgba(82, 82, 85, 0.2);
+    transform: translate(-7px, -5px);
+}
+
+
+    @media(max-width: 1400px) {
+        .card1{
+            padding: 25px;
+        }
+        .summer2024{
+            width: 70%;
+        }
+        .cards{
+            justify-content: space-between;
+        }
+        .card1{
+            padding: 25px;
+        }
+        .summer2024{
+            width: 70%;
+        }
+        .card_h_img{
+            height: 100%;
+        }
+        .card_h_img img{
+            height: 100%;
+        }
+        .card_h{
+            margin-bottom: 80px;
+        }
+        .thirdcolp1{
+            font-size: 22px;
+        }
+        .card_button button p{
+            font-size: 12px;
+        }
+        .card_button{
+            margin-top: 10px;
+        }
+        .card_list{
+            font-size: 12px;
+        }
+        .text_bottom, .text_bottomm{
+            font-size: 12px;
+        }
+    }
+
+    @media(max-width: 1200px) {
+        .selection_of_tour_menu{
+            width: 90%;
+        }
+        .card1{
+            border: none;
+            padding: 30px 50px;
+            margin: 10px 15px;
+        }
+        .card_h{
+            flex-direction: column;
+            align-items: center;
+            width: 48%;
+            position: relative;
+            z-index: 15;
+            margin-bottom: 40px;
+
+        }
+        .card_h_img{
+            width: 100%;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+    
+        }
+        .card_h_img img{
+            height: 110%;
+            width: 100%;
+            display: table-cell;
+    vertical-align: middle;
+    
+        }
+
+        .tour_slider .tour_slider-item img {
+           width: 0;
+           height: 0;
+           z-index: 20;
+        }
+       .ccc .card1 .text_block .text_bottom{
+             display: none;
+             height: 0;
+             font-size: 0;
+             margin: 0;
+             padding: 0;
+         }
+         .ccc .card1 .text_block .text_bottomm{
+            display: none;
+            height: 0;
+            font-size: 0;
+            margin: 0;
+            padding: 0;
+        }
+        .calendar{
+            display: none;
+        }
+         .thirdcol {
+             width: 100%;
+         }
+
+         .card_list, .summer2024 {
+             display: none;
+         }
+         .greylinevert{
+             display: none;
+         }
+         .card_h_img{
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            width: 100%;
+            height: 100%;
+         }
+        .calendar img {
+            width: 100%;
+        }
+        .ttt{
+            margin-top: 5px;
+        }
+        .Gresia{
+            font-weight: 700;
+        }
+        .ccc{
+            border: 1px solid #D4D4D4;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding: 10px 10px;
+        }
+        .ccc_slider{
+            border: none;
+        }
+        .card1{
+            padding: 0;
+        }
+        .thirdcol {
+            width: 90%;
+        }
+        .card_h_img img {
+            height: 100%;
+            z-index: 700;
+            position: relative;
+        }
+
+
+
+
+
+        .selection_of_tour_menu{
+            width: 90%;
+        }
+        .card1{
+            border: none;
+            padding: 30px 50px;
+            margin: 10px 15px;
+        }
+        .card_h{
+            flex-direction: column;
+            align-items: center;
+            width: 48%;
+            position: relative;
+            z-index: 15;
+            /* margin: 0 5px; */
+            margin-bottom: 40px;
+
+        }
+        .card_h_img{
+            width: 100%;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+    
+        }
+        .card_h_img img{
+            height: 110%;
+            width: 100%;
+            display: table-cell;
+    vertical-align: middle;
+    
+        }
+
+        .tour_slider .tour_slider-item img {
+           width: 0;
+           height: 0;
+           z-index: 20;
+        }
+       .ccc .card1 .text_block .text_bottom{
+             display: none;
+             height: 0;
+             font-size: 0;
+             margin: 0;
+             padding: 0;
+         }
+         .ccc .card1 .text_block .text_bottomm{
+            display: none;
+            height: 0;
+            font-size: 0;
+            margin: 0;
+            padding: 0;
+        }
+        .calendar{
+            display: none;
+        }
+         .thirdcol {
+             width: 100%;
+         }
+
+         .card_list, .summer2024 {
+             display: none;
+         }
+         .greylinevert{
+             display: none;
+         }
+         .card_h_img{
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            width: 100%;
+            height: 100%;
+         }
+        .calendar img {
+            width: 100%;
+        }
+        .ttt{
+            margin-top: 5px;
+        }
+        .Gresia{
+            font-weight: 700;
+        }
+        .ccc{
+            border: 1px solid #D4D4D4;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding: 10px 10px;
+        }
+        .ccc_slider{
+            border: none;
+        }
+        .card1{
+            padding: 0;
+        }
+        .thirdcol {
+            width: 90%;
+        }
+        
+
+    }
+    @media(max-width: 992px) {
+        .promo {
+            padding: 66px 0 30px 0;
+        }
+        .selection_of_tour_menu{
+            margin-bottom: 0;
+        }
+        h1{
+            padding: 0;
+            font-size: 40px;
+        }
+        .card_h{
+            margin: 20px auto 0;
+            width: 70%;
+            margin-bottom: 40px;
+        }
+    }
+    @media(max-width: 796px) {
+        .card_h{
+            margin-top: 20px;
+            width: 90%;
+        }
+        .mediamedia{
+            width: 100%;
+        }
+        .mediamedia div{
+            justify-content: space-between;
+        }
+    }
